@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Prueba 10</string>
+
+    <string name="app_name">Remind-me</string>
     <string name="title_activity_navegacion_menu"></string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -11,5 +12,9 @@
     <string name="menu_home">Camara</string>
     <string name="menu_gallery">Galeria</string>
     <string name="menu_share">Compartir</string>
+    <string name="grabatumensaje">Graba tú mensaje</string>
+    <string name="pulsaelboton">Pulsa el boton para grabar una nota</string>
+    <string name="titulo">Titulo</string>
+    <string name="titulo2">Que nombre le quieres poner a tu recuerdo</string>
 
 </resources>

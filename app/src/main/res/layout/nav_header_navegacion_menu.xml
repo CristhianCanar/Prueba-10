@@ -16,6 +16,7 @@
         android:id="@+id/imageView"
         android:layout_width="98dp"
         android:layout_height="84dp"
+        android:background="@color/colorPrimaryDark"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         app:srcCompat="@mipmap/ic_launcher" />
@@ -24,10 +25,10 @@
         android:layout_width="302dp"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="REMIND-ME"
+        android:text="@string/app_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/ic_launcher_background"
-        android:textSize="25dp"
-        app:fontFamily="@font/realistica" />
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-black" />
 
 </LinearLayout>

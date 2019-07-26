@@ -1,5 +1,6 @@
-package com.nitrocanar.prueba10;
+package com.nitrocanar.prueba10.controlador;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -13,6 +14,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
+import com.nitrocanar.prueba10.R;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -34,8 +36,10 @@ public class NavegacionMenu extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+
+                Intent intent = new Intent(NavegacionMenu.this, MainActivity.class);
+                startActivity(intent);
+
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -86,7 +90,8 @@ public class NavegacionMenu extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+
+
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_share) {
